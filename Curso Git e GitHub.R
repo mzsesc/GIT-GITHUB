@@ -25,6 +25,23 @@ usethis::edit_r_environ()
 
 usethis::git_sitrep()
 
-#
+# 1.4 Adiciona a a aba GIT
 usethis::use_git()
 
+#1.5 Criar um repositorio no GitHub
+usethis::use_github()
+
+#1.6 Adicionar informações sobre o repositorio
+usethis::use_readme_md()
+
+#1.7Adicionar informações sobre o repositorio em Markdown
+usethis::use_readme_rmd()
+
+#1.8 Copiar um repositorio
+usethis::create_from_github("stsbarbara/teste","~/", fork = TRUE)
+
+#1.9 como trabalha colaborativamente
+usethis::pr_init("teste")
+
+#1.10 Enviar a sugestão de mudança
+usethis::pr_push()
